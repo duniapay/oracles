@@ -33,7 +33,7 @@ Differences from traditional centralized gateways:
 ## How it Works
 
 Transactions
-Transactions are a way to manage value on and between accounts in the `DuniaPay platform`. Transaction can be only a `credit`.  A credit transaction increases an account’s balance. 
+Transactions are a way to manage value on and between accounts in the `DuniaPay platform`.  Every transaction can be either a debit or a credit. In simple terms debit reduces an account’s balance and a credit increases an account’s balance. A transfer can be thought of as a 2-step transaction where one user is debited and another is credited the required amount.
 
 Every transaction has a status that can be used to gauge the state of the transaction. The statuses are:
 
