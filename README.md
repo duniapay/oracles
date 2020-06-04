@@ -10,9 +10,9 @@ Every transaction has a status that can be used to gauge the state of the transa
 
 
 | status        | description   |
-| ------------- |:-------------:| 
-| Initiating     | processing the transaction insert | 
-| Pending      | the transaction has passed all validation      |  
+| ------------- | ------------- | 
+| Initiating  | processing the transaction insert | 
+| Pending     | the transaction has passed all validation      |  
 | Complete |the transaction has been applied succefully debited from the user third party provider account  |  
 | Failed | the transaction failed from the third party channel   |  
 
@@ -25,7 +25,7 @@ Transactions are basically a series of logs recording payments intents users on 
 
 A full transaction object looks like:
 
-`
+```
 {
     "status": "success",
     "data":  {
@@ -68,7 +68,7 @@ A full transaction object looks like:
         "updated": 1509618708277
     }
 }
-`
+```
 
 The partner attribute will be populated with a pointer to the sender transaction.
 
