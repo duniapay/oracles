@@ -1,10 +1,41 @@
-# oracles
+# Fiat to crypto ramp on CELO Blockchain using Oracles
 
 
+## Overview
 
+This fiat gateway provides a fast and decentralized way to sell crypto for fiat and vice versa.
+
+Any number of fiat payment networks can be supported. Each must provide a external adapter implementation to handle paying out and checking payments in.
+
+A pool of Makers provide fiat and crypto liquidity to the system. They receive a fee for each trade. The fee is the same for all Makers.
+
+A Taker buys crypto for fiat or fiat for crypto. They get the current market price minus a fixed Makers fee.
+
+Differences from localethereum:
+- fiat payments for sells are executed by Oracles
+- fiat payments for buys are executed outside the system but are checked by Oracles before crypto is released
+- trades are direct swaps with fixed fees (there is no order book)
+
+Differences from traditional centralized gateways:
+- transparency - orders are initiated and finalised on chain
+- peer to peer - registered Makers to any Taker
+- trusted Oracles (later can be trustless with a TEE deployment) executing payment network transactions
+
+## Features
+
+- [ ] CUSD to Fiat / Fiat to CUSD
+- [ ] ERC20 to Fiat / Fiat to ERC20
+- [ ] Paypal Fiat Payments
+- [ ] Mobile Money Fiat Payments
+- [ ] USSD Fiat Payments
+- [ ] SEPA Fiat Payments
+- [ ] Encrypted Maker api credentials
+- [ ] DApp UI
+
+## How it Works
 
 Transactions
-Transactions are a way to manage value on and between accounts in the Rehive platform. Transaction can be only a `credit`.  A credit transaction increases an account’s balance. 
+Transactions are a way to manage value on and between accounts in the `DuniaPay platform`. Transaction can be only a `credit`.  A credit transaction increases an account’s balance. 
 
 Every transaction has a status that can be used to gauge the state of the transaction. The statuses are:
 
