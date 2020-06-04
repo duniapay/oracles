@@ -23,10 +23,8 @@ Differences from traditional centralized gateways:
 
 ## Features
 
-- [ ] CUSD to Fiat / Fiat to CUSD
 - [ ] ERC20 to Fiat / Fiat to ERC20
-- [ ] Paypal Fiat Payments
-- [ ] Mobile Money Fiat Payments
+- [ ] Mobile Money Fiat Payments for deposit 
 - [ ] USSD Fiat Payments
 - [ ] SEPA Fiat Payments
 - [ ] Encrypted Maker api credentials
@@ -75,11 +73,11 @@ A full transaction object looks like:
         "balance": 0,
         "account": "0000000000",
         "label": "Credit",
-        "company": "rehive",
+        "company": "Duniapay",
         "currency": {
-            "description": "Rand",
-            "code": "ZAR",
-            "symbol": "R",
+            "description": "CFA",
+            "code": "XOF",
+            "symbol": "CFA",
             "unit": "rand",
             "divisibility": 2
         },
@@ -87,7 +85,7 @@ A full transaction object looks like:
             "id": "00000000-0000-0000-0000-000000000000",
             "first_name": "Joe",
             "last_name": "Soap",
-            "email": "joe@rehive.com",
+            "email": "joe@duniapay.com",
             "username": null,
             "mobile": "+27840000000",
             "profile": null,
