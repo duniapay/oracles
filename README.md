@@ -1,5 +1,16 @@
 # Fiat to crypto ramp on CELO Blockchain using Oracles
 
+## User Journey
+The problem of using peer-to-peer Network in developing  countries is that there is no enforced fiat rails for customer to go cash to crypto. There are solutions to this problem but they come in centralized forms which would require trusting a third party and having to provide identification. Certain countries would have cryptocurrencies banned and therefore no access to centralized exchanges but those countries would still have access to payment services such as Paypal.
+
+## Solution
+The solution was to use smart contracts that can interact with real world data through the use of `BandProtocol Oracles`. The use of BandProtocol allows the contract to be able to confirm whether or not a casino or cashout intent has been paid or not.
+This solution involves a user, creating a cashin or a cashout intent from his mobile wallet for an agreed amount of ERC2O and locking up the ERC2O in a smart contract. This ERC2O is then unlocked when the intent is paid by the user or by the third party payment provider, the smart contract uses BandProtocol Oracles to confirm that the intent has been paid. The contract can confirm with multiple Oracles making it more decentralized and therefore more secure. If the intent is paid then the user will get his wallet balance funded, or if the intent isn't paid or fails in the process, then the transaction is reverted .
+
+## Procedure
+- Users wanting to deposit ERC2O via Mobile Money would first create a `cashin intent` from their mobile phone. They should receive a 6 digits code after the intent creation.
+-Once they received the intent code they would have to go their mobile wallet and make a deposit with the six digits `intent code` that they receive with the amount to be deposited into his account.
+
 
 ## Overview
 
