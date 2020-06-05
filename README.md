@@ -22,7 +22,7 @@ A pool of Makers provide fiat and crypto liquidity to the system. They receive a
 
 A Taker buys crypto for fiat or fiat for crypto. They get the current market price minus a fixed Makers fee.
 
-Differences from localethereum:
+Differences from exiting services:
 - fiat payments for sells are executed by Oracles
 - fiat payments for buys are executed outside the system but are checked by Oracles before crypto is released
 - trades are direct swaps with fixed fees (there is no order book)
@@ -36,8 +36,9 @@ Differences from traditional centralized gateways:
 
 - [ ] ERC20 to Fiat / Fiat to ERC20
 - [ ] Mobile Money Fiat Payments for deposit 
-- [ ] USSD Fiat Payments
 - [ ] SEPA Fiat Payments
+- [ ] Bank account Payments
+- [ ] Credit card - Debit card Fiat Payments
 - [ ] Encrypted Maker api credentials
 - [ ] DApp UI
 
