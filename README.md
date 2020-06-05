@@ -1,7 +1,7 @@
 # Fiat to crypto ramp on CELO Blockchain using Oracles
 
 ## User Journey
-The problem of using peer-to-peer Network in developing  countries is that there is no enforced fiat rails for customer to go cash to crypto. There are solutions to this problem but they come in centralized forms which would require trusting a third party and having to provide identification. Certain countries would have cryptocurrencies banned and therefore no access to centralized exchanges but those countries would still have access to payment services such as Paypal.
+Using peer-to-peer Network in developing countries can be challenging because, there is no enforced fiat rails for customer to go from cash to crypto. There are solutions to this problem but they come in centralized forms which would require trusting a third party and having to provide identification. Certain countries would have cryptocurrencies banned and therefore no access to centralized exchanges but those countries would still have access to payment services such as Paypal.
 
 ## Solution
 The solution was to use smart contracts that can interact with real world data through the use of `BandProtocol Oracles`. The use of BandProtocol allows the contract to be able to confirm whether or not a casino or cashout intent has been paid or not.
