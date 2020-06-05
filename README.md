@@ -65,7 +65,7 @@ Every transaction has a status that can be used to gauge the state of the transa
 
 Object
 
-Transactions are basically a series of logs recording payments intents users on an account. With this in mind, transactions contain information that can be used to identify who made the transaction, what the transaction was made on, and what's the current status of the transaction.
+Transactions are basically a series of logs recording payments intents on a user account. With this in mind, transactions contain information that can be used to identify who made the transaction, what the transaction was made on, and what's the current status of the transaction.
 
 A full transaction object looks like:
 
