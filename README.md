@@ -5,7 +5,7 @@ Using peer-to-peer Network in developing countries can be challenging because, t
 
 ## Solution
 The solution was to use smart contracts that can interact with real world data through the use of `BandProtocol Oracles`. The use of BandProtocol allows the contract to be able to confirm whether or not a casino or cashout intent has been paid or not.
-This solution involves a user, creating a cashin or a cashout intent from his mobile wallet for an agreed amount of ERC2O and locking up the ERC2O in a smart contract. This ERC2O is then unlocked when the intent is paid by the user or by the third party payment provider, the smart contract uses BandProtocol Oracles to confirm that the intent has been paid. The contract can confirm with multiple Oracles making it more decentralized and therefore more secure. If the intent is paid then the user will get his wallet balance funded, or if the intent isn't paid or fails in the process, then the transaction is reverted .
+This solution involves a user, creating a cashin or a cashout intent from his mobile wallet for an agreed amount of ERC2O and locking up the ERC2O in a smart contract. This ERC2O is then unlocked when the intent is paid by the user or by the third party payment provider, the smart contract uses BandProtocol Oracles to confirm that the intent has been paid. If the intent is paid then the user will get his wallet balance funded, or if the intent isn't paid or fails in the process, then the transaction is reverted .
 
 ## Procedure
 - Users wanting to deposit ERC2O via Mobile Money would first create a `cashin intent` from their mobile phone. They should receive a 6 digits code after the intent creation.
