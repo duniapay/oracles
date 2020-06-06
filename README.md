@@ -16,7 +16,7 @@ This solution involves a user, creating a cashin or a cashout intent from his mo
 
 - `Credit card` - `Debit card` Users wanting to deposit ERC2O via`Credit card` - `Debit card` would first make their payment via credit card or debit card. Once the payment is confirmed ,the equivalent amount of funds will be deposited in the user account. 
 
-- `Withdraw to fiat` : A withdraw is created from the user wallet. The user will have to provide a `payment channel` where  they'd like to receive they payment. Once they withdraw is confirmed by the user the funds will be locked and forward to the specified `payment channel`. Once the payment is confirmed the status will be forwarded to the blockchain and the locked funds will be burned
+- `Withdraw to fiat` : A withdraw is created from the user wallet. The user will have to provide a `payment channel` where  they'd like to receive they payment. Once they withdraw is confirmed by the user the funds will be locked and forward to the specified `payment channel`. Once the payment is confirmed the status will be forwarded to the blockchain and the locked tokens will be burned
 
 
 ## Overview
