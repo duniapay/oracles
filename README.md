@@ -9,10 +9,14 @@ This solution involves a user, creating a cashin or a cashout intent from his mo
 
 ## Procedure
 -  `Mobile Money` Users wanting to deposit ERC2O via Mobile Money would first create a `cashin intent` from their mobile phone. They should receive a 6 digits code after the intent creation. Once they received the intent code they would have to go their mobile wallet and make a deposit with the six digits `intent code` that they receive with the amount to be deposited into his account.
-- `Bank wyre`
-- `Cash counter`
-- `Credit card`
-- `Debit card`
+
+- `Bank wyre` Users wanting to deposit ERC2O via Mobile Money would first create a cashin intent by wiring the deposit amount. They should receive a x digits transaction id after the funds has been wired. Once they received the intent code they would have to go their mobile wallet and make a deposit with the x transaction id intent code that they receive with the amount to be deposited into his account.
+
+- `Cash counter` Users wanting to deposit ERC2O via Mobile Cash counter first go to agent or partnered store request a cashin intent by paying the equivalent amount to funds their wallet to the agent. They should receive a 6 digits transaction code after the agent makes the deposit to the user from his mobile app. Once they payment is created by the merchant the user account is automatically funded
+
+- `Credit card` - `Debit card` Users wanting to deposit ERC2O via`Credit card` - `Debit card` would first make their payment via credit card or debit card. Once the payment is confirmed ,the equivalent amount of funds will be deposited in the user account. 
+
+- `Withdraw to fiat` : A withdraw is created from the user wallet. The user will have to provide a `payment channel` where  they'd like to receive they payment. Once they withdraw is confirmed by the user the funds will be locked and forward to the specified `payment channel`. Once the payment is confirmed the status will be forwarded to the blockchain and the locked funds will be burned
 
 
 ## Overview
