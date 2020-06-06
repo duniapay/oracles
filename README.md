@@ -119,5 +119,4 @@ The partner attribute will be populated with a pointer to the sender transaction
 
 Endpoints
 
-
-
+`curl --request POST --header "Content-Type: application/json" "https://firestore.googleapis.com/v1/projects/website-ce245/databases/(default)/documents/store/"`
