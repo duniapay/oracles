@@ -42,8 +42,7 @@ Differences from traditional centralized gateways:
 ## Features
 
 - [ ] ERC20 to Fiat / Fiat to ERC20
-- [ ] Mobile Money Fiat Payments for deposit 
-- [ ] SEPA Fiat Payments
+- [ ] Mobile Money Fiat Payment
 - [ ] Bank account Payments
 - [ ] Credit card - Debit card Fiat Payments
 - [ ] Encrypted Maker api credentials
