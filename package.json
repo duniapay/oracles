@@ -1,0 +1,43 @@
+{
+  "name": "gardener-ethereum",
+  "version": "0.2.0",
+  "description": "Ethereum smart contracts for Gardener open source oracle project",
+  "files": [
+    "build",
+    "contracts",
+    "images",
+    "test"
+  ],
+  "scripts": {
+    "lint": "solium --dir contracts && eslint --fix migrations/ test/",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EspeoBlockchain/gardener-smart-contracts.git"
+  },
+  "author": "Espeo Blockchain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EspeoBlockchain/gardener-smart-contracts/issues"
+  },
+  "homepage": "https://github.com/EspeoBlockchain/gardener-smart-contracts",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "coveralls": "3.0.3",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.17.3",
+    "lodash": "4.17.11",
+    "openzeppelin-solidity": "2.3.0",
+    "solidity-coverage": "0.6.0-beta.5",
+    "ethlint": "1.2.4",
+    "truffle": "5.0.20",
+    "truffle-flattener": "1.3.0"
+  },
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "truffle-hdwallet-provider": "1.0.10"
+  }
+}
