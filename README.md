@@ -1,4 +1,4 @@
-# Gardener smart contracts
+# Oracle smart contracts
 
 [![CircleCI](https://circleci.com/gh/EspeoBlockchain/gardener-smart-contracts.svg?style=shield)](https://circleci.com/gh/EspeoBlockchain/gardener-smart-contracts)
 [![Coverage Status](https://coveralls.io/repos/github/EspeoBlockchain/gardener-smart-contracts/badge.svg)](https://coveralls.io/github/EspeoBlockchain/gardener-smart-contracts)
